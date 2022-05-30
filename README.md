@@ -1,5 +1,6 @@
 # Full-Stack-Web-Dev-Course
 A Repository for Udemy Full Stack Web Development Course
+Check out the course [here](https://www.udemy.com/course/the-complete-web-development-bootcamp/).
 
 ## The different projects are seperated by their respective folders 
 
