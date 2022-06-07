@@ -8,7 +8,7 @@ body{
   color: #fff;
 }
 
-#title .container-fluid{
+#title .container-fluid {
   padding: 3% 15%;
 }
 
@@ -44,20 +44,28 @@ body{
   margin: 5% 3% 5%;
 }
 
+#title .img_parent {
+  position: relative;
+  height: 50%;
+}
+
 /* Title Image */
-.title-img {
-  width: 60%;
+#title .title-img {
+  width: 50%;
   transform: rotate(25deg);
+  position: absolute;
 }
 
 /* Features */
-#features .container-fluid {
+#features {
   text-align: center;
   padding: 3% 15%;
+  background: #FFF;
+  position: relative;
 }
 
 #features .feat-container {
-  margin: 15% auto;
+  margin: 4.5% auto;
 }
 
 #features .feat-img {
@@ -66,7 +74,7 @@ body{
   color: #ef8172;
 }
 
-#features .feat-img:hover{
+#features .feat-img:hover {
   color: #ff4c68;
 }
 
@@ -78,4 +86,69 @@ body{
 
 #features .feature-description {
   color: #8f8f8f;
+}
+
+/* Testimonials */
+#testimonials {
+  text-align: center;
+  background-color: #EF8172;
+  color: #FFF;
+  position: relative;
+}
+
+#testimonials h2 {
+  font-family: 'Montserrat';
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+#testimonials .testimonials-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#testimonials .carousel-item {
+  padding: 3% 15%;
+}
+
+/* Press */
+#press {
+  text-align: center;
+  background-color: #EF8172;
+  padding-bottom: 3%
+}
+
+#press .press-img {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing */
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+#pricing h2 {
+  font-family: 'Montserrat';
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+#pricing .pricing-col {
+  padding: 3% 2%;
+}
+
+@media (max-width: 1028px) {
+  #title .title-img {
+    position: static;
+    transform: rotate(0);
+  }
+
+  #title {
+    text-align: center;
+  }
 }
